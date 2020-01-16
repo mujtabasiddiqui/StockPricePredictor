@@ -19,6 +19,7 @@ import matplotlib.pyplot as plt
 
 #Plot Style
 plt.style.use('ggplot')
+
 def predictor (stock):
     #Get stock price
     df = dr.DataReader(stock, data_source='yahoo', start='2011-05-26', end='2020-01-01')
